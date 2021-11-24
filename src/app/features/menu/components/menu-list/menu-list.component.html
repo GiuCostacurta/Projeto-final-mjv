@@ -1,0 +1,17 @@
+<div class="search">
+
+    <h3>Seja bem vindo ao nosso Menu!</h3>
+
+    <input type="text" placeholder="Digite o nome do produto que deseja!" 
+    (input)="getMenuByDescription($event)">
+</div>
+
+<div class="products-container">
+    <app-menu-card
+    *ngFor="let item of filteredMenu"
+    [menu]="item"></app-menu-card>
+</div>
+
+<div class="zero-products-message" *ngIf="filteredMenu.length === 0">
+    <h3>Não existe produtos para essa busca!</h3>
+</div>

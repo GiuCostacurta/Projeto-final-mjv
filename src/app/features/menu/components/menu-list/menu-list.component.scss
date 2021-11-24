@@ -1,0 +1,30 @@
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    padding-right: 5px;
+
+}
+
+.search {
+    padding-left: 10px;
+    input {
+        height: 40px;
+        width: 350px;
+        font-size: 16px;
+    }
+}
+
+.zero-products-message {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.mensagem {
+    margin-bottom: 50px;
+}
+h3{
+    color: #b61467;
+    font-family: verdana;
+}

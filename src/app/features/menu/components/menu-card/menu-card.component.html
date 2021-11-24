@@ -1,0 +1,8 @@
+<div class="card" *ngIf="menu">
+    <img width="250px" height="250px"
+        [src]='menu.img'>
+    <div class="card-description">
+        <p><b>{{menu.description}}</b></p>
+        <h3>{{menu.price | currency : 'BRL'}}</h3>
+    </div>
+</div>
