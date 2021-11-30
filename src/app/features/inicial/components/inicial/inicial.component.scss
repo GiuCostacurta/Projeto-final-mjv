@@ -1,11 +1,32 @@
-h1{
-    color:#6b1467;
-    font-family: Verdana;
-    font-size: larger;
-}
-main{
-    color: black;
+h2{
+    color: #6b1467;
     font-family: Verdana;
     font-size: large;
-    padding: auto;
+    padding-left: 25px;  
 }
+h3{
+    color: #6b1467;
+    font-family: Verdana;
+    font-size: large;
+    padding-left: 25px; 
+    text-rendering: optimizeLegibility;
+}
+
+img{
+    width: auto;
+}
+button{
+    cursor: pointer;
+    color: #6b1467;
+    background-color: #d69edd;
+    border-color: #6b1467;
+    border-style: groove;
+    height: 40px;
+    width: 30%;
+    font-family: Verdana;
+    font-size:16px;
+    font-weight: bold;
+    justify-content: space-around;
+    
+}
+

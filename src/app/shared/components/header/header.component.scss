@@ -1,6 +1,6 @@
 nav {
     width: 100%;
-    background-color:#b61467;
+    background-color:#6b1467;
     color: beige;
     height: 50px;
     display: flex;
@@ -9,7 +9,10 @@ nav {
     padding: auto;
     h1 {
         font-size: 24px;
-        color:#6b1467;
+        color:beige;
+    }
+    img{
+    height: 70px;
     }
     ul {
         display: flex;
@@ -17,8 +20,8 @@ nav {
         gap: 10px;
         li {
             list-style: none;
-            margin-right: 10px;
-            margin-left: 10px;
+            margin-right: 20px;
+            margin-left: 20px;
             cursor: pointer;
             font-weight: bold;
         }

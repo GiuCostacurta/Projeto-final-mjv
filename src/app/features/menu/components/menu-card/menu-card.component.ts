@@ -10,7 +10,7 @@ import { Menu } from '../../models/menu.model';
 export class MenuCardComponent implements OnInit {
   
   @Input()
-  menu?: Menu;
+  menu!: Menu;
 
   constructor() { }
 

@@ -1,10 +1,14 @@
 <app-header></app-header>
 
-    <h1>Bem vindo a Cafeteria SweetTooth!</h1>
+    <img src = "assets/img/bem-vindo.png">
+    <h3>Forma de contato: {{ phoneNumber }}</h3>
 
-    <main>A Cafeteria SweetTooth tem como seu principal objetivo deixar 
-        seu dia a dia um pouco mais doce!</main>
+    <h3>Nosso menu se encontrará disponível até: {{ availableDateMenu | date: 'fullDate' }}</h3>
 
-        <p>Conheça nosso Menu!</p>
+    <h2>Conheça nosso Menu!</h2>
+    <button (click)="navigateByUrl('/menu')">Menu</button>
+
+    <img src = "assets/img/adocicar.png">
+        
 
 <app-footer></app-footer>
